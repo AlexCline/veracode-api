@@ -1,0 +1,38 @@
+{
+  "name": "veracode-api",
+  "version": "0.1.0",
+  "description": "Node.js client for the Veracode API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexCline/veracode-api.git"
+  },
+  "keywords": [
+    "veracode",
+    "sast"
+  ],
+  "author": "Alex Cline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexCline/veracode-api/issues"
+  },
+  "homepage": "https://github.com/AlexCline/veracode-api#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "request": "^2.81.0",
+    "temp": "^0.8.3",
+    "xml2js": "^0.4.17"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  }
+}
